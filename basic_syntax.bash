@@ -1,3 +1,6 @@
+#!/bin/bash
+# This is a script example
+
 # Variables
 # Name and age
 name="Temis"

@@ -22,3 +22,19 @@ echo "$plus"
 export MY_VARIABLE="IM AN ENVIRONMENT VARIABLE"
 echo "$MY_VARIABLE"
 unset "$MY_VARIABLE"
+
+# Operators
+# + PLUS
+# - SUSTRAC
+# * MULTIPLY
+# / DIVISIONi
+# % MODULE
+# Examples...
+a=10
+b=5
+
+echo $(( a + b ))
+echo $(( a - b ))
+echo $(( a * b ))
+echo $(( a / b ))
+echo $(( a % b ))

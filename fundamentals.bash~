@@ -76,31 +76,3 @@ rm -rf route/{*,.*}
 mkdir directory_name
 # Create a directory in a route.
 mkdir ./route/directory_name
-
-# You have diferent commands to see the content of a file
-# You can use cat(concatenate) <file> to see all the content 
-cat file.txt
-
-# Or concatenate a file before show it
-cat file.txt file_two.txt
-
-# Or just show the file total lines amount
-cat -n file.txt
-
-# You can use the command less to see all the content of the file in a paginated way
-less file.txt
-# Use 'space' to go to other page
-# Use 'b' to go back
-# Use 'q' to leave the visor
-
-# You can use more but this do the same than less but with more less functionabilities
-more file.txt
-
-# You can use the command head to look for the firts 10 lines in the file
-head file.txt
-
-# You can also specify how many lines you want to show using -n <n_lines>
-head -n <number> file.txt
-
-# And for the other hand use tail to see the last 10 lines of the file (works same as head)
-tail file.txt or tail -n <number> file.txt

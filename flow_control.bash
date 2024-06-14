@@ -15,6 +15,11 @@ fi
 for i in {1..5}; do
 	echo "Iteration $i"
 
+for(( i=0; i<=10; i+=2))
+do
+	echo $i
+done
+
 # while
 count=1
 while [ $count -le 5 ]; do

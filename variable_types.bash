@@ -38,3 +38,61 @@ echo $(( a - b ))
 echo $(( a * b ))
 echo $(( a / b ))
 echo $(( a % b ))
+
+# Comparisson operators
+# -eq (same as)
+# -ne (not same as)
+# -lt (lower than)
+# -le (lower or equally to)
+# -gt (bigger than)
+# -ge (bigger or equally to)
+# Examples...
+
+if [ $a -eq $b ]; then
+	echo "a and b has the same value"
+else
+	echo "a and b doesn't has the same value"
+fi
+
+if [ $a -gt $b ] then
+	echo "a it's bigger than b"
+fi
+
+# Logical operators
+# && (AND)
+# || (OR)
+# ! (NOT)
+# Examples...
+
+# AND
+if [ $a -gt 0 ] && [ $b -gt 0 ]; then
+	echo "a and b are bigger than 0"
+fi
+
+# OR 
+if [ $a -gt 0 ] || [ $b -gt 0 ]; then
+	echo "a or b are bigger than 0"
+fi
+
+# NOT
+if ! [ $a -lt 0]; then
+	echo "a it's not lower than 0"
+fi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -58,7 +58,7 @@ do_fractals(){
 	# Subtract the stem position 
 	local start_position_branch=$((start_position - base_parameter))
 	# local finish_position=$((start_position - (base_parameter * 2)))
-	local finish_position_branch=$((start_position - (base_parameter * 2)))
+	local finish_position_branch=$((start_position - (base_parameter * 2) + 1))
 
 
 	# Control variables
